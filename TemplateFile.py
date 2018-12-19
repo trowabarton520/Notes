@@ -4,8 +4,8 @@ import pprint
 
 session = requests.Session()
 sf = Salesforce(username='benb@vmware.com.vmw',
-                password='Standardvmwaffle1!',
-                security_token='QpTboD5GLOa1LBYny6cvXDMod')
+                password='!',
+                security_token='')
 OwnerID = "0053400000ABdnxAAD"
 # Get all the users open cases
 myCases = sf.query(
